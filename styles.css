@@ -452,9 +452,7 @@ form{
         margin: 1rem;
     }
 
-    h1{
-        color: red;
-    }
+    
 }
 
 
@@ -466,7 +464,7 @@ form{
     }
 
     h1{
-        color:blue;
+        
         font-size: 35px;
     }
 
@@ -521,9 +519,7 @@ form{
 }
 
 @media (min-width:1700px){
-    h1{
-        color: green;
-    }
+    
     
     .portfolio img{
         width: 47rem;
