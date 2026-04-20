@@ -435,6 +435,22 @@ form{
     .gallery p{
         font-size: 18px;
     }
+
+    ul::scroll-button(*) {
+  border: 0;
+  font-size: 3rem;
+    }
+
+    ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  bottom: calc(anchor(top) - 240px);
+  
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  bottom: calc(anchor(top) - 240px);
+}
 }
 
 
@@ -451,6 +467,8 @@ form{
 
         margin: 1rem;
     }
+
+    
 
     
 }
@@ -516,6 +534,22 @@ form{
     footer a{
         font-size: 25px;
     }
+
+    ul::scroll-button(*) {
+  border: 0;
+  font-size: 4rem;
+    }
+
+    ul::scroll-button(left) {
+  right: calc(anchor(left) - 80px);
+  bottom: calc(anchor(top) - 280px);
+  
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 80px);
+  bottom: calc(anchor(top) - 280px);
+}
 }
 
 @media (min-width:1700px){
